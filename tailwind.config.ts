@@ -16,8 +16,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "motivation-desktop": "url('/forca-foco-fit.jpg')",
-        "motivation-mobile": "url('/forca-foco-fit-mobile.jpg')",
+        "motivation-desktop": "url('/images/forca-foco-fit.jpg')",
+        "motivation-mobile": "url('/images/forca-foco-fit-mobile.jpg')",
+        "bannerImage":"url('/images/bannerImage.png')",
       },
       colors: {
         "color-primary": "#0F3E5C",

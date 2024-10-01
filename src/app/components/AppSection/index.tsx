@@ -1,8 +1,8 @@
 import Image from "next/image";
-import GooglePlay from "/public/google-play-download.svg";
-import AppStore from "/public/app-store-download.svg";
-import qrCode from "/public/qr-code-download.png";
-import Devices from "/public/devices-app.svg";
+import GooglePlay from "/public/images/google-play-download.svg";
+import AppStore from "/public/images/app-store-download.svg";
+import qrCode from "/public/images/qr-code-download.png";
+import Devices from "/public/images/devices-app.svg";
 
 interface AppSectionProps {}
 

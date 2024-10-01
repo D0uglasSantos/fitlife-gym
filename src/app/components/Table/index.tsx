@@ -1,6 +1,6 @@
 import Image from "next/image";
-import vIcon from "/public/v-icon.svg";
-import xIcon from "/public/x-icon.svg";
+import vIcon from "/public/images/v-icon.svg";
+import xIcon from "/public/images/x-icon.svg";
 import { IoMdClose } from "react-icons/io";
 import { BsCheckCircleFill } from "react-icons/bs";
 

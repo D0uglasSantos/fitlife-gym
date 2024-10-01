@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Button from "../Button";
 import PriceCards from "./PriceCards";
 import Table from "../Table";

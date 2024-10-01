@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "/public/fitLife-logo-500-200.svg";
+import Logo from "/public/images/fitLife-logo-500-200.svg";
 import SocialIcons from "../SocialIcons";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

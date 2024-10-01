@@ -2,7 +2,7 @@ import ItemsVerify from "./ItemsVerify";
 import Button from "../Button";
 import GaleryGym from "./Galery";
 import Image from "next/image";
-import FitPerson from "/public/foto-section-2-desktop.svg";
+import FitPerson from "/public/images/foto-section-2-desktop.svg";
 
 const CompareSection = () => {
   return (
