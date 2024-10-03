@@ -10,7 +10,7 @@ const BannerHome = () => {
       <div className="flex justify-between items-center w-4/5">
         <div className="flex flex-col gap-20 w-[54%]">
           <h1 className="font-extrabold text-white text-6xl uppercase">
-            sua{" "}
+            suaaaa{" "}
             <span className="font-extrabold text-color-details">
               melhor versão
             </span>{" "}
