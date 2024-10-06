@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import IconChat from "./components/IconChat";
-import FixedFooter from "./components/FixedFooter";
+import IconChat from "../components/IconChat";
+import FixedFooter from "../components/FixedFooter";
 import { Theme } from "@radix-ui/themes";
 
 const inter = Inter({ subsets: ["latin"] });

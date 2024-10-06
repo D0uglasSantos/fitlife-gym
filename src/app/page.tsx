@@ -1,20 +1,20 @@
-import AppSection from "./components/AppSection";
-import Footer from "./components/Footer";
-import MotivationSection from "./components/MotivationSection";
-import VideoSection from "./components/VideoSection";
-import CompareSection from "./components/PresentationSection";
-import PriceSection from "./components/PlansSection";
+import AppSection from "../components/AppSection";
+import Footer from "../components/Footer";
+import MotivationSection from "../components/ParallaxSection";
+import AboutSection from "../components/AboutSection";
+import PriceSection from "../components/PlansSection";
 import "@radix-ui/themes/styles.css";
-import BannerHome from "./components/BannerHome";
+import BannerHome from "../components/BannerHome";
+import EquipeSection from "../components/EquipeSection";
 
 export default function Home() {
   return (
     <main className="">
       <BannerHome />
-      <CompareSection />
+      <AboutSection />
       <PriceSection />
-      <MotivationSection />
-      <VideoSection />
+      <EquipeSection />
+      <MotivationSection />      
       <AppSection />
       <Footer />
     </main>
