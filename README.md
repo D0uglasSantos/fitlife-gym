@@ -1,6 +1,6 @@
 # FIT LIFE - GYM WEBSITE
 
-![Resultado final do projeto](/public/preview.png)
+![Resultado final do projeto](/public/images/preview.png)
 
 > Olá, esté é um projeto de um website de uma academia!!.
 > 
