@@ -1,4 +1,4 @@
-import BannerPages from "../components/BannerPages";
+import BannerPages from "../../components/BannerPages";
 
 interface UnidadesProps {}
 
