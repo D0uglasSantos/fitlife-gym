@@ -15,24 +15,24 @@ const Contato = ({}: ContatoProps) => {
     <section>
       <BannerPages namePage="Contato" />
       <div className="bg-bgContato bg-no-repeat bg-cover flex flex-col items-center gap-10 py-80 bg-center "> 
-        <div className="flex  items-center">
-        <div className="flex-1 pr-8">
-          <Image src={Logo} alt="logo" />
-          <h1 className="uppercase text-center text-4xl text-white font-bold">Localização</h1>
-          <p className="text-center text-1xl text-color-details mb-3">ABDALLA MALL, EQS 502/503 <br/>Asa Sul, Brasília - DF</p>
-          <div className="lg:space-y-4 text-center mr-4">
-            <div className="flex flex-col items-center">
+        <div className="flex  items-center justify-evenly w-4/5">
+        <div className="flex-1 ">
+          <Image src={Logo} alt="logo" width={229} height={97}/>
+          <h1 className="uppercase  text-4xl text-white font-bold">Localização</h1>
+          <p className=" text-1xl text-color-details mb-3">ABDALLA MALL, EQS 502/503 <br/>Asa Sul, Brasília - DF</p>
+          <div className="lg:space-y-4  mr-4">
+            <div className="flex flex-col">
           <p className="font-bold uppercase text-white text-4xl">
             siga-nos
           </p>
-          <span className="flex  flex-row lg:gap-2  m-4">
+          <span className="flex  flex-row lg:gap-2 my-4">
             <SocialIcons icon={FaFacebookF} />
             <SocialIcons icon={FaInstagram} />
             <SocialIcons icon={FaYoutube} />
             <SocialIcons icon={FaSpotify} />
           </span>
           </div>
-          <p className="uppercase text-white font-bold text-1xl ">&copy; Todos os direitos reservados a Fit Life</p>
+          <p className=" text-white  text-sm">&copy; Todos os direitos reservados a Fit Life</p>
         </div>
        
         </div>
