@@ -1,6 +1,6 @@
 import BannerPages from "../../components/BannerPages";
 import Footer from "@/components/Footer";
-import Logo from "../../../public/images/fitLife-logo-500-200.svg"
+import Logo from "../../../public/images/fitLife-logo-500-200.svg";
 import Image from "next/image";
 import SocialIcons from "@/components/SocialIcons";
 import { FaFacebookF } from "react-icons/fa";
@@ -37,23 +37,41 @@ const Contato = ({}: ContatoProps) => {
        
         </div>
 
-        <form action="" method="post"   className="flex flex-col ">
-          <h1 className="uppercase text-center text-[37px] text-white font-bold">Formulário de contato</h1>
-          <input type="text" placeholder="Digite seu nome" className="rounded-lg py-3 bg-neutral-200 text-color-secundary pl-2"/>
-          <input type="email" placeholder="Digite seu email" className="rounded-lg py-3 bg-neutral-200 my-5 text-color-secundary pl-2"/> 
-          <textarea name="msg" id="msg" placeholder="Digite sua mensagem" className="bg-neutral-200 rounded-lg py-3 text-color-secundary pl-2" ></textarea>
-         <Button
+          <form action="" method="post" className="flex flex-col ">
+            <h1 className="uppercase text-center text-[37px] text-white font-bold">
+              Formulário de contato
+            </h1>
+            <input
+              type="text"
+              placeholder="Digite seu nome"
+              className="rounded-lg py-3 bg-neutral-200 text-color-secundary pl-2"
+            />
+            <input
+              type="email"
+              placeholder="Digite seu email"
+              className="rounded-lg py-3 bg-neutral-200 my-5 text-color-secundary pl-2"
+            />
+            <textarea
+              name="msg"
+              id="msg"
+              placeholder="Digite sua mensagem"
+              className="bg-neutral-200 rounded-lg py-3 text-color-secundary pl-2"
+            ></textarea>
+            <Button
               bgColor="bg-color-details"
               borderRadius="rounded-lg"
               font="font-bold"
               hover="hover:bg-[#008645] hover:shadow-md"
               paddingX="px-6"
               paddingY="py-4"
-              textColor="text-white">Enviar</Button>
+              textColor="text-white"
+            >
+              Enviar
+            </Button>
           </form>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </section>
   );
 };
