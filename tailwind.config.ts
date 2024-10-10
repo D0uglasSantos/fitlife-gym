@@ -18,8 +18,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "motivation-desktop": "url('/images/forca-foco-fit.jpg')",
         "motivation-mobile": "url('/images/forca-foco-fit-mobile.jpg')",
-        "bannerImage":"url('/images/bannerImage.png')",
-        "bgSectionTeam":"url('/images/bgSectionTeam.jpg')",
+        "bannerImage": "url('/images/bannerImage.png')",
+        "bgSectionTeam": "url('/images/bgSectionTeam.jpg')",
+        "bgContato": "url('/images/img-Contato.jpg')"
       },
       colors: {
         "color-primary": "#0F3E5C",
