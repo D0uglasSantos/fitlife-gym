@@ -12,7 +12,7 @@ const BannerPages = ({ namePage }: BannerProps) => {
       <Navbar />
       <div className=" h-screen flex items-center justify-between w-4/5">
         <div className="flex gap-4  items-center justify-center">
-          <h1 className="font-extrabold text-color-details text-6xl uppercase tracking-widest ">
+          <h1 className="font-extrabold text-color-details text-7xl uppercase tracking-wide">
             {namePage}
           </h1>
         </div>
