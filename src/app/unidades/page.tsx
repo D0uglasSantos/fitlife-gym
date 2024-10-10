@@ -6,6 +6,9 @@ const Unidades = ({}: UnidadesProps) => {
   return (
     <section>
       <BannerPages namePage="Unidades" />
+      <div>
+        
+      </div>
     </section>
   );
 };
