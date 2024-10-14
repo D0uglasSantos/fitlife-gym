@@ -33,7 +33,7 @@ const items = [
   },
   {
     text: "área do aluno",
-    path: "",
+    path: "/aluno",
   },
 ];
 

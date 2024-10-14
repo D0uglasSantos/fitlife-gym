@@ -20,7 +20,9 @@ const config: Config = {
         "motivation-mobile": "url('/images/forca-foco-fit-mobile.jpg')",
         "bannerImage": "url('/images/bannerImage.png')",
         "bgSectionTeam": "url('/images/bgSectionTeam.jpg')",
-        "bgContato": "url('/images/img-Contato.jpg')"
+        "bgContato": "url('/images/img-Contato.jpg')",
+        "bgAluno": "url(  '/images/bg-teste.png'  )",
+        "bgCadastro": "url('/images/bg-cadastro.png')"
       },
       colors: {
         "color-primary": "#0F3E5C",
