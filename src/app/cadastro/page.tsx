@@ -34,7 +34,7 @@ const cadastro=({}:cadastroProps)=>{
             textColor="text-white">
                 Cadastrar</Button>
             </form><br/>
-            <p className="text-white ">Já tem uma conta? <a href="/aluno" className="text-color-details decoration-solid underline">Log in</a></p>
+            <p className="text-white mb-4">Já tem uma conta? <a href="/aluno" className="text-color-details decoration-solid underline">Log in</a></p>
             
             </div>
             

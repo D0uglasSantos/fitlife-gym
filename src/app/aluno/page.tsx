@@ -9,9 +9,10 @@ interface alunoProps{}
 const Aluno = ({}: alunoProps)=>{
     return(
         <section className=" flex   bg-color-primary  ">
-           <div className="bg-bgAluno h-screen w-2/4 bg-no-repeat  "></div>
+           <div className="bg-bgAluno  w-2/4 bg-no-repeat  "></div>
+           
                 <div className="flex flex-col  w-2/4 justify-center items-center">
-                    
+                <div className="text-white flex w-[32rem] m-6"><a href="/">&lt; Voltar</a></div>         
             <Image src={Logo} alt="logo" width={500} height={300}/>
 
             <h1 className="text-white uppercase font-bold text-4xl ">Login</h1>
