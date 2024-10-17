@@ -11,10 +11,11 @@ const BannerPages = ({ namePage }: BannerProps) => {
     <section className="bg-bannerImage bg-cover flex flex-col items-center lg:gap-8 lg:h-screen ">
       <Navbar />
       <div className=" h-screen flex items-center justify-between w-4/5">
-        <div className="flex gap-4  items-center justify-center">
-          <h1 className="font-extrabold text-color-details text-7xl uppercase tracking-wide">
+        <div className="flex gap-4 flex-col text-left items-start justify-center">
+          <h1 className="font-extrabold text-color-details lg:text-7xl uppercase tracking-wide">
             {namePage}
           </h1>
+          <p className="text-white lg:text-3xl">Sua academia sempre a disposição!</p>
         </div>
         <div>
           <div className="flex flex-col gap-3 text-white">

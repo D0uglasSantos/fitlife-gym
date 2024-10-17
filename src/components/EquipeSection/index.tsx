@@ -60,7 +60,7 @@ const teamMembers: TeamMember[] = [
 
 const EquipeSection: React.FC = () => {
   return (
-    <section className="bg-bgSectionTeam bg-no-repeat bg-cover w-full h-screen flex flex-col items-center gap-10 py-10">
+    <section className="bg-bgSectionTeam bg-no-repeat bg-cover w-full h-max flex flex-col items-center gap-10 py-10">
       <h1 className="uppercase text-center text-5xl text-color-primary font-bold">
         conheça nossa equipe!!
       </h1>
@@ -69,7 +69,7 @@ const EquipeSection: React.FC = () => {
           <CardTeam key={member.id} team={member} />
         ))}
       </div>
-      <h3 className="font-bold text-white text-xl">
+      <h3 className="font-bold text-black text-xl">
         Sempre disposta a ajudar e torcer pela{" "}
         <span className="text-color-primary">sua evolução!</span>
       </h3>
